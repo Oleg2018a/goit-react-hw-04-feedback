@@ -1,6 +1,6 @@
 import React from 'react'
-import css from './Notification.module.css'
+import { Text } from './Notification.styled'
 export const Notification = ({message}) => {
-  return  <p className={css.text}>{ message}</p>
+  return  <Text >{ message}</Text>
   
 }
